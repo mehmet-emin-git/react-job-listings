@@ -8,9 +8,9 @@ function App() {
   useEffect(() => setJobs(data),[]);
 
   return (
-    <div className="App font-body bg-blue-100">
+    <div className="App font-body bg-blue-100 min-h-full pb-6">
       <header className="bg-desaturated w-full">
-        <img className="w-full mb-16" src="/images/bg-header-desktop.svg" alt="header image" />
+        <img className="w-full mb-16" src="/images/bg-header-desktop.svg" alt="" />
       </header>
       {
         jobs.length === 0 ? (<p>fetching jobs...</p>)
