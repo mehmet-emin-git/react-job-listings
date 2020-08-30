@@ -1,3 +1,6 @@
+# Frontend Mentor - Jobs Linsting with React and TailwindCss
+![Design preview for the Job Listings coding challenge](./public/desktop-preview.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
