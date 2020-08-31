@@ -15,7 +15,7 @@ function App() {
     if(tools) tags.push(...tools);
     if(languages) tags.push(...languages);
     
-    return filters.every(filter => tag.includes(filter));
+    return filters.every(filter => tags.includes(filter));
   }
 
   const handleTagClick = (tag) => {
